@@ -5,8 +5,6 @@ Vocational Training Authority of Sri Lanka.
 
 This is the official frontend repository of the Classroom management system VTA - Developed by the Software developer 2023 batch of VTC Kalutara North.
 
-Currently, two official plugins are available:
-
 ## Key focus areas of the system
 
 ### Student registration management
