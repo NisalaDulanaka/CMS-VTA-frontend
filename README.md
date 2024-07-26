@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Classroom Management System - 2024
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CMS - Classroom Management System VTA** is a center managment system aimed at digitalizing all information management of all centers owned by the
+Vocational Training Authority of Sri Lanka.
+
+This is the official frontend repository of the Classroom management system VTA - Developed by the Software developer 2023 batch of VTC Kalutara North.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key focus areas of the system
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Student registration management
+  - Application Handling
+  - Interview Handling
+  - Payment Handling
+### Attendance management
+  - Attendance Marking
+  - Attendance report generating
+### Assessment management
+  - Continuous Assessment Handling
+  - Pre/Final Assessment Handling
+### OJT management
+  - On the job training information management
+  - Job details handling
+### Inventory handling
+  - Inventory book handling
+  - Stock management
