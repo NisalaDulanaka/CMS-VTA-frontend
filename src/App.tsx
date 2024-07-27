@@ -1,12 +1,20 @@
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import Sidebar from './components/Sidebar'
+import Sidebar from './components/sidebar/Sidebar'
 
 function App() {
 
   return (
     <>
-      <h2>Hellow This is Classroom Management System 2024</h2>
-      <Sidebar />
+      <div className="container-fluid">
+        <div className="row">
+          <Sidebar />
+
+          <div className="col">
+            <Outlet/>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
