@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import './StudentSection.css';
-import { CaretRightFill, Filter, Funnel, Search, Vr } from "react-bootstrap-icons";
+import { CaretRightFill, Funnel, Search } from "react-bootstrap-icons";
 
 export default function StudentSection() {
 
