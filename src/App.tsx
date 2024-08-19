@@ -6,15 +6,13 @@ function App() {
 
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
+        <div className="flex">
           <Sidebar />
 
-          <div className="col">
-            <Outlet/>
+          <div className="flex-1">
+            <Outlet />
           </div>
         </div>
-      </div>
     </>
   )
 }
